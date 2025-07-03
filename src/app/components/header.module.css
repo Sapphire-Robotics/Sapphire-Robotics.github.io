@@ -5,6 +5,7 @@
     margin: 35px;
     padding: 5px;
     border-radius: 6px;
+    transition-duration: 0.3s;
 }
 
 .headerLink:hover {
