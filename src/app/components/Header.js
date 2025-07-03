@@ -19,7 +19,10 @@ export default function Header() {
             alignItems: "center",
             paddingLeft: "20px",
             paddingRight: "20px",
-            justifyContent: "space-around"
+            justifyContent: "space-around",
+            position: "fixed",
+            top: "0",
+            width: "100vw"
         }}>
             <HeaderLink href="/"><span style={{
                 color: "#f24bea",
