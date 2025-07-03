@@ -5,7 +5,7 @@ function HeaderLink({ children, href }) {
             fontWeight: "bold",
             fontSize: "1.3em",
             color: "#fadbff",
-            margin: "15px"
+            margin: "35px"
         }}>{children}</a>
     );
 }
@@ -18,10 +18,18 @@ export default function Header() {
             display: "flex",
             alignItems: "center",
             paddingLeft: "20px",
+            paddingRight: "20px",
+            justifyContent: "space-around"
         }}>
-            <HeaderLink href="/">Home</HeaderLink>
-            <HeaderLink href="/about">About</HeaderLink>
-            <HeaderLink href="/support">Support</HeaderLink>
+            <HeaderLink href="/"><span style={{
+                color: "#f24bea",
+                fontSize: "1.5em"
+            }}>LOGO</span></HeaderLink>
+            <div>
+                <HeaderLink href="/">Home</HeaderLink>
+                <HeaderLink href="/about">About</HeaderLink>
+                <HeaderLink href="/support">Support</HeaderLink>
+            </div>
         </div>
     );
 }
