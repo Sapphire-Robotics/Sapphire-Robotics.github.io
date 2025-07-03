@@ -7,7 +7,10 @@ export default function Page() {
             <PageTitle>About</PageTitle>
             <PageContent>
                 <p>
-                  We are a robotics club located in Apex, North Carolina. This fall, we will be running two FLL teams.
+                    We were founded in 2024 as a homeschool coding club in North Carolina, and expanded to include students from all schools. 
+                    Our founding members have taught coding classes to young students (including HTML, JavaScript, and Python), organized coding competitions, and mentored FLL teams.
+                    Our mission is to introduce and spark interest in coding and robotics. We plan on expanding to host and mentor multiple FLL teams and coding activities to reach a wider audience.
+
                 </p>
             </PageContent>
         </>
