@@ -17,11 +17,11 @@ export default function Header() {
             height: "75px",
             display: "flex",
             alignItems: "center",
-            paddingLeft: "20px"
+            paddingLeft: "20px",
         }}>
             <HeaderLink href="/">Home</HeaderLink>
             <HeaderLink href="/about">About</HeaderLink>
-            <HeaderLink href="/mission">Mission</HeaderLink>
+            <HeaderLink href="/support">Support</HeaderLink>
         </div>
     );
 }

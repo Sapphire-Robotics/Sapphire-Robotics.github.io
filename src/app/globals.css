@@ -11,3 +11,11 @@ body {
 h1 {
     font-size: 3.5em;
 }
+
+p {
+    font-size: 1.3em;
+    width: 50vw;
+    margin-left: 38vw;
+    margin-right: auto;
+    text-align: justify;
+}

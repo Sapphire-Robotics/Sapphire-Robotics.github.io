@@ -1,7 +1,14 @@
 import { Montserrat } from "next/font/google";
+import { Saira_Condensed  } from "next/font/google";
 import Header from "./components/Header";
 import "./globals.css";
+
 const montserrat = Montserrat({
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  subsets: ["latin"]
+});
+
+export const sairaCondensed = Saira_Condensed({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   subsets: ["latin"]
 });
