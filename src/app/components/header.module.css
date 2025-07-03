@@ -1,0 +1,12 @@
+.headerLink {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 35px;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.headerLink:hover {
+    background-color: #4f5e8a;
+}

@@ -1,11 +1,11 @@
+'use client'
+import styles from "./header.module.css";
+import { usePathname } from "next/navigation";
+
 function HeaderLink({ children, href }) {
     return (
-        <a href={href} style={{
-            textDecoration: "none",
-            fontWeight: "bold",
-            fontSize: "1.3em",
-            color: "#fadbff",
-            margin: "35px"
+        <a href={href} className={styles.headerLink} style={{
+            color: href == usePathname() ? "#96bfff" : "#fadbff"
         }}>{children}</a>
     );
 }
@@ -13,7 +13,7 @@ function HeaderLink({ children, href }) {
 export default function Header() {
     return (
         <div style={{
-            backgroundColor: "#5b489c",
+            backgroundColor: "#2c3b69",
             height: "75px",
             display: "flex",
             alignItems: "center",
