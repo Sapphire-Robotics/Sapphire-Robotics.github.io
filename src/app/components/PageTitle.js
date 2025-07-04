@@ -1,4 +1,4 @@
-import { sairaCondensed } from "../layout.js";
+import { poiretOne } from "../layout.js";
 
 export default function PageTitle({ children }) {
     return (
@@ -6,6 +6,6 @@ export default function PageTitle({ children }) {
             width: "68vw",
             marginLeft: "32vw",
             textAlign: "left"
-        }} className={sairaCondensed.className}>{children}</h1>
+        }} className={poiretOne.className}>{children}</h1>
     );
 }
