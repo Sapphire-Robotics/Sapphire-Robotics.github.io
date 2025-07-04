@@ -19,10 +19,7 @@ export default function Page() {
                         color: "#fadbff"
                     }}>FIRST LEGO League</a>
                 </p>
-                <Image src="/placeholder_picture.png" width={1280} height={1280} alt="Placeholder image" style={{
-                  width: "350px",
-                  height: "350px"
-                }} />
+                <Image src="/fllPicture.jpg" width={479} height={606} alt="Placeholder image" />
             </PageContent>
         </>
     );
