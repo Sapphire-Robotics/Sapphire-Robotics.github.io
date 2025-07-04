@@ -7,7 +7,7 @@ export default function Page() {
         <>
             <PageTitle>Sapphire Robotics</PageTitle>
             <PageContent>
-                <Image src="/fllPicture.jpg" width={479} height={606} alt="Picture of FLL robot on the Submerged game field" style={{
+                <Image src="/fllPicture.png" width={479} height={606} alt="Picture of FLL robot on the Submerged game field" style={{
                     position: "absolute",
                     left: "200px",
                     width: "300px",
