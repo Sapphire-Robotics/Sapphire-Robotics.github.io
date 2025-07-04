@@ -1,13 +1,13 @@
 import PageTitle from "@/../src/app/components/PageTitle.js";
 import PageContent from "@/../src/app/components/PageContent.js";
-import Image from "next/image"
+import Image from "next/image";
 
 export default function Page() {
     return (
         <>
             <PageTitle>Sapphire Robotics</PageTitle>
             <PageContent>
-                <Image src="/fllPicture.jpg" width={479} height={606} alt="Placeholder image" style={{
+                <Image src="/fllPicture.jpg" width={479} height={606} alt="Picture of FLL robot on the Submerged game field" style={{
                     position: "absolute",
                     left: "200px",
                     width: "300px",
