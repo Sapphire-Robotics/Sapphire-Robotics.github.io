@@ -4,11 +4,11 @@ html, body {
 }
 
 body {
-    background-color: #001e39;
-    color: #fadbff;
+    color: #001e39;
     text-align: center;
     margin-bottom: 100px;
     padding-top: 90px;
+    overflow-y: auto;
 }
 
 h1 {

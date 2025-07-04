@@ -14,7 +14,7 @@ function HeaderLink({ children, href, className }) {
 export default function Header() {
     return (
         <div style={{
-            backgroundColor: "#ddc3e0",
+            backgroundColor: "#f0fbff",
             height: "90px",
             display: "flex",
             alignItems: "center",
@@ -23,7 +23,8 @@ export default function Header() {
             justifyContent: "space-around",
             position: "fixed",
             top: "0",
-            width: "100vw"
+            width: "100vw",
+            boxShadow: "1px 5px 5px rgb(201, 218, 255)"
         }}>
             <HeaderLink href="/" className={styles.logo}><Image src="/logo.svg" alt="Sapphire Robotics logo" width={161} height={150} /></HeaderLink>
             <div>
