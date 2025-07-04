@@ -26,7 +26,8 @@ export default function Header() {
             position: "fixed",
             top: "0",
             width: "100vw",
-            boxShadow: "-8px 7px 14px rgb(201, 218, 255)"
+            boxShadow: "-8px 7px 14px rgb(201, 218, 255)",
+            zIndex: "1"
         }}>
             <HeaderLink href="/" className={styles.logo}><Image src="/logo.svg" alt="Sapphire Robotics logo" width={300} height={103} style={{
                 height: "60px",

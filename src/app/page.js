@@ -7,6 +7,12 @@ export default function Page() {
         <>
             <PageTitle>Sapphire Robotics</PageTitle>
             <PageContent>
+                <Image src="/fllPicture.jpg" width={479} height={606} alt="Placeholder image" style={{
+                    position: "absolute",
+                    left: "200px",
+                    width: "300px",
+                    height: "fit-content"
+                }} />
                 <p>
                     We help youth develop collaboration and communication skills by having them solve challenging engineering problems together.
                     <br />We participate in our local FIRST LEGO League Challenge competitions in North Carolina.
@@ -19,7 +25,6 @@ export default function Page() {
                         color: "#fadbff"
                     }}>FIRST LEGO League</a>
                 </p>
-                <Image src="/fllPicture.jpg" width={479} height={606} alt="Placeholder image" />
             </PageContent>
         </>
     );
