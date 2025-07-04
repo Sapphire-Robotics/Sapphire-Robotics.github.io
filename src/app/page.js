@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function Page() {
     return (
         <>
-            <PageTitle>Placeholder Robotics Club</PageTitle>
+            <PageTitle>Sapphire Robotics</PageTitle>
             <PageContent>
                 <p>
                     We help youth develop collaboration and communication skills by having them solve challenging engineering problems together.

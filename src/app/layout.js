@@ -13,6 +13,10 @@ export const sairaCondensed = Saira_Condensed({
   subsets: ["latin"]
 });
 
+export const metadata = {
+  "title": "Sapphire Robotics"
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

@@ -3,11 +3,16 @@
     font-weight: bold;
     font-size: 1.3em;
     margin: 35px;
-    padding: 5px;
-    border-radius: 6px;
-    transition-duration: 0.3s;
+    padding: 3px;
+    /* border-radius: 6px; */
+    transition-duration: 0.1s;
 }
 
 .headerLink:hover {
-    background-color: #4f5e8a;
+    /* background-color: #d8eae9; */
+    border-bottom: 3px solid;
+}
+
+.logo:hover {
+    background-color: none!important;
 }

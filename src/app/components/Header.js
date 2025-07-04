@@ -1,11 +1,12 @@
 'use client'
 import styles from "./header.module.css";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
-function HeaderLink({ children, href }) {
+function HeaderLink({ children, href, className }) {
     return (
-        <a href={href} className={styles.headerLink} style={{
-            color: href == usePathname() ? "#96bfff" : "#fadbff"
+        <a href={href} className={className == styles.logo ? null : styles.headerLink} style={{
+            color: href == usePathname() ? "#3a57d6" : "#9e0099"
         }}>{children}</a>
     );
 }
@@ -13,8 +14,8 @@ function HeaderLink({ children, href }) {
 export default function Header() {
     return (
         <div style={{
-            backgroundColor: "#2c3b69",
-            height: "75px",
+            backgroundColor: "#ddc3e0",
+            height: "90px",
             display: "flex",
             alignItems: "center",
             paddingLeft: "20px",
@@ -24,10 +25,7 @@ export default function Header() {
             top: "0",
             width: "100vw"
         }}>
-            <HeaderLink href="/"><span style={{
-                color: "#f24bea",
-                fontSize: "1.5em"
-            }}>LOGO</span></HeaderLink>
+            <HeaderLink href="/" className={styles.logo}><Image src="/logo.svg" alt="Sapphire Robotics logo" width={161} height={150} /></HeaderLink>
             <div>
                 <HeaderLink href="/">Home</HeaderLink>
                 <HeaderLink href="/about">About</HeaderLink>
