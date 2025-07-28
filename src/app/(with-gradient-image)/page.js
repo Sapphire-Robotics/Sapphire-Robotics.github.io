@@ -1,5 +1,5 @@
-import PageTitle from "@/../src/app/components/PageTitle.js";
-import PageContent from "@/../src/app/components/PageContent.js";
+import PageTitle from "@/app/(with-gradient-image)/components/PageTitle.js";
+import PageContent from "@/app/(with-gradient-image)/components/PageContent.js";
 import Image from "next/image";
 
 export default function Page() {
